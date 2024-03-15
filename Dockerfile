@@ -18,6 +18,4 @@ FROM scratch
 
 COPY --from=builder /go-app-desafio /go/bin/go-app-desafio
 
-EXPOSE 8080
-
 CMD ["./go/bin/go-app-desafio"]
